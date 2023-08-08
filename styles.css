@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+
+  div#left_nav{
+    float : left;
+  }
+
+  div#right_nav{
+    float:right;
+    margin-top: -5px;
+    margin-right: 520px;
+  }
+
+  div#icons{
+    float: right;
+    margin-top: -20px;
+    margin-right: -390px;
+  }
+
+  #ic{
+    padding-left: 20px;
+  }
+
+  #book{
+    color: black;
+  }
+
+  img#logo { 
+    object-fit: cover;
+    float:right;
+    border-radius: 40%;
+    /* margin-left: 50px; */
+    margin-right: 100px;
+    margin-top: -70px;
+    /*position: absolute;
+    top: 8px;
+    left: 0; */
+    height:60px;
+    width:50px;
+}
+
+  header {
+    /* background-color: #172035; */
+    color: black;
+    padding: 20px;
+  }
+
+  header h2  {
+    /* margin-left: 50px; */
+    margin-top: -10px;
+  }
+
+  nav a {
+    color: black;   
+    text-decoration: none;
+    margin-left: 50px;
+  }
+
+  .contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top:20px;
+}
+
+.image{
+    flex-basis: 35%;
+    height: 450px;
+    padding: 20px;
+    /* background-color: #C0B2B1; */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img{
+    width:620px;
+    height:400px;
+}
+
+/* h1,h2{
+    text-align: center;
+    color: #27421F;
+} */
+
+.contact-form{
+    flex-basis: 30%;
+    width: 400px;
+    height: 450px;
+    padding: 20px;
+    /* background-color: #C0B2B1; */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* .AD-btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.Add-btn{
+    flex-basis: 20%;
+    background-color: #2E3D53;
+    text-decoration: none;
+    color: white;
+    padding:8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+.Delete-btn{
+    flex-basis: 20%;
+    background-color: #2E3D53;
+    text-decoration: none;
+    color: white;
+    padding:8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+.Reset-btn{
+    flex-basis: 20%;
+    background-color: #2E3D53;
+    text-decoration: none;
+    color: white;
+    padding:8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+} */
+
+.Buy{
+    background-color: #2E3D53;
+    text-decoration: none;
+    color: white;
+    padding:8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    font-size: 18px;
+    padding: 10px;
+    width: 90%;
+    /* border: 1px solid black; */
+    /* border-radius: 10px; */
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+  
+  input[type="submit"] {
+    font-size: 18px;
+    float:right;
+    padding: 10px 70px;
+    background-color: #ee2828;
+    color: white;
+    /* border: 1px solid black; */
+    /* border-radius: 10px; */
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #ee2828;
+  }
